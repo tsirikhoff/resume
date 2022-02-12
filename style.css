@@ -1,0 +1,12 @@
+.green {
+    color : rgb(64, 197, 124) ;
+    font-size : 25px;
+    text-align: center;
+
+}
+
+.fstyle {
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+}
