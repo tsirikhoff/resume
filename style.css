@@ -1,218 +1,66 @@
+/*@for $i from 1 through 20 {*/
+/*    .space-#{$i*5} {*/
+/*        display: block;*/
+/*        width: 100%;*/
+/*        height: #{$i*5}px;*/
+/*    }*/
+/*}*/
+/*@font-face {*/
+/*    font-family: 'lato';*/
+/*    src: url('fonts/Lato-Thin.woff2');*/
+/*    font-weight: 600;*/
+/*    font-display: swap;*/
+/*    font-style: normal;*/
+/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Lato:ital,wght@1,300&family=Montserrat:wght@400;700&display=swap');
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+    font-family: 'Lato', sans-serif;
+    background-color: #f1cd9e;
+    /*display: compact;*/
+    float: inherit;
+}
+.bertrand{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 30px;
+    text-align: center;
+}
+.text{
+    text-align: left;
+    width: 500px;
 }
 
-.the_all_space{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    background-color: #fff;
-    margin: 40px auto;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-
-}
-
-/* MAIN CONTENT SECTION */
-.right_content{
-    padding: 100px 90px;
-
-}
-
-.body_content_titles{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color:#000;
-    margin-bottom: 10px;
-}
-
-/* about_me_section */
-.about_me_head{
-   margin: 0 0 40px 0;
-   
-} 
-
-.front_end_dev{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    color : #000;
-    margin-bottom: 0 0 20px 0;
-}
-
-.marat_name{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    margin:0 0 25px 0;
-    color: #000;
+.text2{
+    float: left;
+    width: 500px;
 }
 
 
-
-.about_me_par{
-    width: 400px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color:#595959
+p span{
+    font-style: italic;
+    color: #ab08ec;
+    text-decoration: underline;
 }
 
-/* PROJECTS SECTION*/
-
-.my_projects_section{
-    margin:0 0 50px 0;
+.titles{
+    text-align: center;
+    float: right;
 }
 
-
-.projects_list{
-    padding: 0 0 0 17px;
-
+.scope{
+    font-weight: 80;
 }
 
-.projects_items{
-    color:#000;
-    font-weight: 700;
+.n\/m{
+    color:darkblue;
 }
 
-.projects_list_link{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+.char{
+    color:red;
 }
 
-.font{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+.solus{
+    /*text-align: left;*/
+    width: 500px;
+    float: right;
 }
-
-
-
-.projects_list_text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    margin: 0 0 0 5px;
-}
-
-.my_projects_bracket{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color:#000;
-}
-
-/* WORK EXPERIENCE */
-
-.orange_color{
-    color : #FB6D3A;
-}
-
-.work_exp_pos{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0 0 10px 0;
-}
-.work_exp_date{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color:#A8A8A8;
-    margin: 0 0 10px 0;
-}
-
-.slash{
-    color: #000;
-}
-
-.my_work_exp_duties{
-    width: 509px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    padding: 0 0 0 16px;
-}
-
-.work_exp_company{
-    margin: 0 15px 0  0;
-}
-
-.work_exp_company_1{
-    margin: 0 0 45px 0 ;
-}
-
-/* MY EDUCATION */
-
-.my_education{
-    margin: 0 0 10px 0;
-}
-
-/* Sidebar_section */
-.sidebar_section{
-    background-color: #1E2939;
-    width: 370px;
-    left: 66px;
-    top: 40px;
-    padding: 40px 0 ;
-    margin: 40px auto;
-    
-}
-
-.side_contacts,
-.side_tech_skills{
-    margin:50px 0 0 40px;
-    color: #fff;
-    
-}
-
-.side_soft_Skills{
-    margin:45px 0 0 40px;
-    color: #fff;
-}
-
-.sidebar_titels{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.feedback_content{
-    color: #565E6A;
-}
-
-.orange_style{
-    color : #FB6D3A;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0 0 0 15px;
-    
-   }
-   
-   .white_color{
-    color: #fff;
-}
-
-
